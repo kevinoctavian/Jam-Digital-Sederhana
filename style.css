@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+}
+
+.main-container {
+  width: 600px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: default;
+}
+
+.flex {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: wheat;
+}
+
+.flex h1 {
+  margin-bottom: 20px;
+}
+
+.flex p {
+  color: rgba(0, 0, 0, 0.8);
+}
